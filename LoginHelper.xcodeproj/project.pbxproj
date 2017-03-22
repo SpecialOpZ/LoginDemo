@@ -54,12 +54,12 @@
 		925726A71E820D2A00A6B912 /* LoginHelper */ = {
 			isa = PBXGroup;
 			children = (
-				925726A81E820D2A00A6B912 /* AppDelegate.swift */,
 				925726AA1E820D2A00A6B912 /* ViewController.swift */,
 				925726AC1E820D2A00A6B912 /* Main.storyboard */,
 				925726AF1E820D2A00A6B912 /* Assets.xcassets */,
 				925726B11E820D2A00A6B912 /* LaunchScreen.storyboard */,
 				925726B41E820D2A00A6B912 /* Info.plist */,
+				925726A81E820D2A00A6B912 /* AppDelegate.swift */,
 			);
 			path = LoginHelper;
 			sourceTree = "<group>";
@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					925726A41E820D2A00A6B912 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = AJFM4YH55C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,11 +263,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJFM4YH55C;
 				INFOPLIST_FILE = LoginHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appalgorithm.com.LoginHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -274,11 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJFM4YH55C;
 				INFOPLIST_FILE = LoginHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appalgorithm.com.LoginHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
